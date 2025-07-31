@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Sobre Nós</h1>
+    <p>Esta é a página sobre nós do nosso site.</p>
+    <a href="{{ url_for('home') }}">Voltar para a Página Inicial</a>
+  </body>
+</html>
